@@ -33,11 +33,11 @@ h1 {
 }
 
 h2 {
-  @apply max-sm:text-xl text-3xl text-gray-200;
+  @apply max-sm:text-xl text-3xl text-black;
 }
 
 label {
-  @apply text-gray-200;
+  @apply text-black;
 }
 input {
   @apply w-full p-4 inset-shadow rounded-2xl focus:outline-none bg-white;
