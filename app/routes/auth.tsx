@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { usePuterStore } from "~/lib/puter";
 
 export const meta = () => [
@@ -8,7 +8,7 @@ export const meta = () => [
 
 const Auth = () => {
     const { isLoading, auth } = usePuterStore();
-    
+   
     return (
         <main className="bg-[url('/images/bg-main.svg')] bg-cover min-h-screen flex items-center justify-center">
             <div className="gradiant-border shadow-lg">
